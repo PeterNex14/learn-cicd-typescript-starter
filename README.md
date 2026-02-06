@@ -1,4 +1,4 @@
-![Test Badge](https://github.com/PeterNex14/learn-cicd-typescript-starter/actions/workflows/ci.yml/badge.sh)
+![Test Badge](https://github.com/PeterNex14/learn-cicd-typescript-starter/actions/workflows/ci.yml/badge.sh "badge test")
 
 # learn-cicd-typescript-starter (Notely)
 
