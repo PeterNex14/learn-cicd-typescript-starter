@@ -37,3 +37,6 @@ jobs:
 
       - name: 'Build Docker image and push to GCP'
         run: 'gcloud builds submit --tag us-central1-docker.pkg.dev/notedly-486623/notely-ar-repo/notely:latest .'
+
+      - name: "Google Cloud Run Setup"
+        run: 'gcloud run deploy notely --image us-central1-docker.pkg.dev/notedly-486623/notely-ar-repo/notely:latest --region us-central1 --allow-unauthenticated --project notedly-486623 --max-instance=4'
